@@ -40,7 +40,7 @@ export default function About() {
         <div className="edu-card">
           <div className="edu-icon"><FaUniversity /></div>
           <div className="edu-content">
-            <h3>MCA — Deemed to be University</h3>
+            <h3>MCA — KIET Deemed to be University</h3>
             <p>Ghaziabad, Uttar Pradesh</p>
             <p>2025 – 2027</p>
           </div>
