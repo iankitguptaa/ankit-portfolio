@@ -16,7 +16,7 @@ export default function Home() {
           transition={{ duration: 1 }}
         >
           <div className="image-ring">
-            <img src="/profile.jpg" alt="Ankit Kumar" />
+            <img src="/personalpic.jpeg" alt="Ankit Kumar" />
           </div>
         </motion.div>
 
