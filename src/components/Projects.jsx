@@ -96,8 +96,8 @@ export default function Projects() {
           </div>
 
           <div className="project-links">
-            <a href="#" className="btn-code">Code</a>
-            <a href="#" className="btn-live">Live</a>
+            <a href="https://github.com/iankitguptaa/ankit-portfolio" className="btn-code">Code</a>
+            <a href="https://ankit-portfolio-three-woad.vercel.app/" className="btn-live">Live</a>
           </div>
         </div>
 
