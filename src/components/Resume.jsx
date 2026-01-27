@@ -15,7 +15,7 @@ export default function Resume() {
         <div className="resume-left">
           <h1>👨‍💻 ANKIT KUMAR</h1>
           <p>Master of Computer Applications (MCA)</p>
-          <p>KIET Group of Institutions, Ghaziabad</p>
+          <p>KIET Deemed to be University, Ghaziabad</p>
 
           <div className="resume-contact">
             <p>📍 Ghaziabad, Uttar Pradesh</p>
