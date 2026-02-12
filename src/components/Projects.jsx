@@ -29,7 +29,7 @@ export default function Projects() {
           </div>
 
           <div className="project-links">
-            <a href="#" className="btn-code">Code</a>
+            <a href="https://github.com/iankitguptaa/Lung-Cancer-prediction-project" className="btn-code">Code</a>
             <a href="#" className="btn-live">Live</a>
           </div>
         </div>
