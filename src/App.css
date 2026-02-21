@@ -902,3 +902,47 @@ section {
     font-size: 20px;
   }
 }
+
+/* default desktop */
+.nav-links {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+.hamburger {
+  display: none;
+  font-size: 28px;
+  cursor: pointer;
+}
+
+/* mobile */
+@media (max-width: 768px) {
+  .hamburger {
+    display: block;
+    z-index: 1001;
+  }
+
+  .nav-links {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    flex-direction: column;
+    background: (10, 15, 20, 0.95); /* clean dark */
+    width: 240px;
+    height: 100vh;
+    padding-top: 90px;
+    gap: 25px;
+    align-items: center;
+    transition: 0.35s ease;
+    box-shadow: -5px 0 20px rgba(0,0,0,0.4);
+  }
+
+  .nav-links.active {
+    right: 0;
+  }
+
+  .nav-links a {
+    font-size: 17px;
+  }
+}
