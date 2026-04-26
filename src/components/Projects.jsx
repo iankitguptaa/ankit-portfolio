@@ -101,6 +101,29 @@ export default function Projects() {
           </div>
         </div>
 
+        {/* PROJECT 5 */}
+        <div className="project-card">
+          <img src="/Project5.png" alt="E-Commerce Website" />
+
+          <h3>Restaurant Website</h3>
+          <p>
+            I recently challenged myself to build a complete, production-ready food delivery platform from scratch. I wanted to go beyond just a simple frontend mockup and build something that looks stunning, feels interactive, and is powered by a real backend.
+          </p>
+
+          <div className="tech-tags">
+            <span>React</span>
+            <span>Express</span>
+            <span>REST API</span>
+            <span>Vercel</span>
+          </div>
+
+          <div className="project-links">
+            <a href="https://github.com/iankitguptaa/Restaurant-Website" className="btn-code">Code</a>
+            <a href="https://restaurant-website-steel-omega.vercel.app/" className="btn-live">Live</a>
+          </div>
+        </div>
+
+
       </div>
     </section>
   );
